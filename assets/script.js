@@ -7,23 +7,28 @@ let resposta = document.getElementById("rpt");
 btn.addEventListener("click", ()=>{
     let numero = Number(choice_number.value);
 
+    // LIMPA estado anterior
+    resposta.classList.remove("acesso-ok", "acesso-negado");
+
     switch (numero){
         case 1234:
-            resposta.textContent = "Acesso básico";
+            resposta.textContent = "Acesso Básico";
+            resposta.classList.add("acesso-ok");
             break;
 
             case 5678:
-                resposta.textContent = "Acesso intermediário";
+                resposta.textContent = "Acesso Intermediário";
+                resposta.classList.add("acesso-ok");
                 break;
 
                 case 91011:
-                    resposta.textContent = "Acesso administrador";
+                    resposta.textContent = "Acesso Administrador";
+                    resposta.classList.add("acesso-ok");
                     break;
-                    case "":
-                        resposta.textContent = "adcione seu acesso"
-                        break;
+
                     default:
-                        resposta.textContent = "Acesso negado"
+                        resposta.textContent = "Acesso Negado"
+                        resposta.classList.add("acesso-negado");
                         break;
     }
 
