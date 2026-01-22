@@ -1,28 +1,86 @@
+html{
+    background-color: #D7DFE4;
+    color: #30333D;
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
+    margin: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #3a3a3a;
 }
 
 .escolha{
-    border: 1px solid #232323;
-    width: 400px;
-    height: 300px;
+    background-color: #ffffff;
+    border: 0px solid #232323;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 520px;
+    height: 520px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.info_contol{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.Info_text {
+    margin-top: 5px;
+    color: #74787c;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 100
+}
+
 #number{
-    width: 30px;
+    color: #74787c;
+    display: flex;
+    text-align: center;
+    width: 350px;
     height: 50px;
-    font-size: 30px;
-    padding-left: 20px;
+    font-size: 27px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    
 }
 .btn{
-    width: 100px;
-    height: 50px;
-    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+    box-shadow: 0 ;
+    background-color: #2B7BC9;
+    color: #ffffff;
+    margin-top: 30px;
+    
+}
+
+.resposta{
+    margin-top: 40;
+    color: #74787c;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 100;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acesso-ok {
+    color: green;
+}
+
+.acesso-negado {
+    color: red;
 }

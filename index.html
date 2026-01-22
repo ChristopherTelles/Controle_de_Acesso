@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,11 @@
 <body>
     
     <div class="escolha">
-        <h1>Escolha 1 numero</h1>
-        <input type="number" value="0" name="" id="number">
-        <h1 class="resposta" id="rpt">Acesso negado</h1>
-        <button type="button" class="btn" id="btn">Confirmar</button>
+        <h1 class="info_contol info">Controle de Acesso</h1>
+        <h3 class="Info_text info">Digite seu CPF para verificar o nível de acesso</h3>
+        <input type="text" value="Digite seu CPF aqui" id="number" inputmode="numeric" pattern="[0-9]*">
+        <button type="button" class="btn" id="btn">Verificar acesso</button>
+        <h1 class="resposta" id="rpt">Resultado aparecerá aqui</h1>
     </div>
 
     <script src="assets/script.js"></script>
