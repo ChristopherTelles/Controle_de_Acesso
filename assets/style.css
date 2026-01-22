@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3a3a3a;
+}
+
+.escolha{
+    border: 1px solid #232323;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#number{
+    width: 30px;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+}
