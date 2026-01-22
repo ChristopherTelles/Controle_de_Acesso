@@ -1,11 +1,14 @@
 html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #D7DFE4;
     color: #30333D;
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
     margin: 0;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,4 +86,43 @@ body{
 
 .acesso-negado {
     color: red;
+}
+
+
+
+@media (max-width: 480px) {
+html{
+    width: 100%;
+}
+
+.escolha{
+    width: 85vw;
+    height: 100vw;
+}
+
+.info_contol{
+    font-size: 30px;
+}
+
+.Info_text {
+    font-size: 15px;
+}
+
+#number{
+    width: 60vw;
+    height: 10vw;
+    font-size: 5vw;
+}
+.btn{
+    width: 30vw;
+    height: 5vh;
+    font-size: 3vw;
+}
+
+.resposta{
+    width: 60vw;
+    height: 8vh;
+    font-size: 4vw;
+}
+
 }
