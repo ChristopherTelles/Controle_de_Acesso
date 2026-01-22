@@ -97,7 +97,7 @@ html, body{
 }
 
 .escolha{
-    width: 85vw;
+    width: 90vw;
     height: 100vw;
 }
 
@@ -106,7 +106,9 @@ html, body{
 }
 
 .Info_text {
+    margin-bottom: 4vw;
     font-size: 15px;
+    font-weight: 200
 }
 
 #number{
