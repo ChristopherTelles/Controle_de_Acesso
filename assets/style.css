@@ -1,12 +1,20 @@
+html{
+    background-color: #D7DFE4;
+    color: #30333D;
+}
 body{
+    margin: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #3a3a3a;
 }
 
 .escolha{
-    border: 1px solid #232323;
+    background-color: #ffffff;
+    border: 0px solid #232323;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     width: 400px;
     height: 300px;
     display: flex;
@@ -16,10 +24,11 @@ body{
 }
 
 #number{
-    width: 30px;
+    display: flex;
+    text-align: center;
+    width: 250px;
     height: 50px;
     font-size: 30px;
-    padding-left: 20px;
 }
 .btn{
     width: 100px;
